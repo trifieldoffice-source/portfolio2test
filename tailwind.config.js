@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         "deep-blue": "#0F172A",
         "soft-white": "#F8FAFC",
-        "gold": "#94A3B8",
+        "gold": "#D4AF37",
         "light-gray": "#94A3B8",
       },
       fontFamily: {
