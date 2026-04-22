@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/ui/Header";
+import React from "react";
 
 // next/font を使った Playfair Display の読み込み設定
 const playfair = Playfair_Display({ 
@@ -29,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" className={`${playfair.variable} ${inter.variable}`}>
-      <body className="font-sans antialiased selection:bg-gold selection:text-deep-blue">
+      <body className="font-sans antialiased text-light-gray bg-deep-blue selection:bg-gold selection:text-deep-blue">
         <Header />
         {children}
       </body>
